@@ -6,11 +6,11 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 14:12:05 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/01/17 17:14:06 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/01/17 17:26:18 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isalpha(int b)
+int	ft_isalpha(char b)
 {
 	if ((b >= 'a' && b <= 'z') || (b >= 'A' && b <= 'Z'))
 		return (1);
