@@ -6,11 +6,11 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 19:02:28 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/01/18 15:46:50 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/01/18 17:09:46 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void ft_memset(void *a, int b, int len)
+void ft_memset(void *a, int b, size_t len)
 {
 	unsigned char *p = a;
 	while (len > 0)
