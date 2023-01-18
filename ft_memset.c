@@ -6,7 +6,7 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 19:02:28 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/01/18 18:38:58 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/01/18 18:45:36 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_memset(void *a, int b, size_t len)
 	*p = a;
 	while (len > 0)
 	{
-		*p = (unsigned char) c;
+		*p = (unsigned char) a;
 		p++;
 		len--;
 	}
