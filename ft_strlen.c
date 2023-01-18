@@ -6,9 +6,11 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 18:39:34 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/01/17 19:00:52 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/01/18 19:36:55 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_strlen(char *str)
 {
