@@ -6,15 +6,15 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 19:02:28 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/01/18 18:45:36 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/01/18 19:13:50 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_memset(void *a, int b, size_t len)
+void	ft_memset(void *p, int b, size_t len)
 {
-	unsigned char	*p;
+	unsigned char	*a;
 
-	*p = a;
+	a = p;
 	while (len > 0)
 	{
 		*p = (unsigned char) a;

@@ -6,13 +6,13 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 17:08:06 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/01/18 18:54:06 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/01/18 19:14:57 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void ft_bzero(void *p, size_t len)
+void	ft_bzero(void *p, size_t len)
 {
-	unsigned char *a;
+	unsigned char	*a;
 
 	a = p;
 	while (len > 0)
@@ -21,5 +21,5 @@ void ft_bzero(void *p, size_t len)
 		len--;
 		*p++;
 	}
-	return(a);
+	return (a);
 }
