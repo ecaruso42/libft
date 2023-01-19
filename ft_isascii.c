@@ -6,9 +6,11 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 18:10:00 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/01/17 18:14:57 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/01/19 16:05:29 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_isascii(char b)
 {

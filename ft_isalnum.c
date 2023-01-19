@@ -6,9 +6,11 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 17:28:39 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/01/17 17:45:15 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/01/19 16:05:26 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_isalnum(char b)
 {
