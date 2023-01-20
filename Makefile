@@ -6,7 +6,7 @@
 #    By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/19 18:50:23 by ecaruso           #+#    #+#              #
-#    Updated: 2023/01/19 20:07:19 by ecaruso          ###   ########.fr        #
+#    Updated: 2023/01/20 17:40:24 by ecaruso          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -48,11 +48,11 @@ SRC = \
 	./ft_putnbr_fd.c
 OBJ = $(SRC:%.c=%.o)
 FLAGS = -Wall -Wextra -Werror
-
+GCC = gcc -c
 all : $(NAME)
 
 $(NAME) :
-	gcc -c $(FLAGS)  $(SRC) -I.
+	$(GCC) $(FLAGS)  $(SRC) -I.
 	ar rcs $(NAME) $(OBJ)
 
 clean :
