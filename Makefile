@@ -6,14 +6,14 @@
 #    By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/19 18:50:23 by ecaruso           #+#    #+#              #
-#    Updated: 2023/01/20 17:40:24 by ecaruso          ###   ########.fr        #
+#    Updated: 2023/01/20 18:56:25 by ecaruso          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
 SRC = \
 	./ft_memset.c	\
-	./ft_bzero.c	\
+	#./ft_bzero.c	\
 	./ft_memcpy.c	\
 	./ft_memmove.c	\
 	./ft_memchr.c	\

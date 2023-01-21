@@ -6,21 +6,21 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 19:02:28 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/01/19 17:24:08 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/01/20 19:00:22 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_memset(void *p, int b, size_t len)
+void	*ft_memset(void *p, int b, size_t len)
 {
 	unsigned char	*a;
 
 	a = p;
 	while (len > 0)
 	{
-		*p = (unsigned char) a;
-		p++;
+		*a = b;
+		a++;
 		len--;
 	}
 	return (a);
