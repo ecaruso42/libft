@@ -6,7 +6,7 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/19 17:21:13 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/01/21 18:13:37 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/01/21 18:16:45 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,24 +17,24 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	size_t	i;
 
 	i = 0;
-	if (!dest)
+	if (!dst)
 		return (NULL);
-	if ((size_t)dest - (size_t)src < n)
+	if ((size_t)dst - (size_t)src < len)
 	{
-		i = n - 1;
-		while (i >= 0 && i < n)
+		i = len - 1;
+		while (i >= 0 && i < len)
 		{
-			((unsigned char *)dest)[i] = ((unsigned char *)src)[i];
+			((unsigned char *)dst)[i] = ((unsigned char *)src)[i];
 			i--;
 		}
 	}
 	else
 	{
-		while (i < n)
+		while (i < len)
 		{
-			((unsigned char *)dest)[i] = ((unsigned char *)src)[i];
+			((unsigned char *)dst)[i] = ((unsigned char *)src)[i];
 			i++;
 		}
 	}
-	return (dest);
+	return (dst);
 }
