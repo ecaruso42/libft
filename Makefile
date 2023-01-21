@@ -6,7 +6,7 @@
 #    By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/19 18:50:23 by ecaruso           #+#    #+#              #
-#    Updated: 2023/01/21 17:14:40 by ecaruso          ###   ########.fr        #
+#    Updated: 2023/01/21 17:37:42 by ecaruso          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,7 +34,7 @@ GCC = gcc -c
 all : $(NAME)
 
 $(NAME) :
-	$(GCC) $(FLAGS)  $(SRC) -I.
+	$(GCC) $(FLAGS) -I ./ $(SRC)
 	ar rcs $(NAME) $(OBJ)
 
 clean :
