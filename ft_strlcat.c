@@ -6,23 +6,13 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/20 17:34:21 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/01/20 17:57:42 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/01/21 20:12:50 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(char *str)
-{
-	int	i;
+#include "libft.h"
 
-	i = 0;
-	while (str[i] != '\0')
-	{
-		i++;
-	}
-	return (i);
-}
-
-unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
+size_t	ft_strlcat(char *dest, char *src, size_t size)
 {
 	unsigned int	i;
 	unsigned int	j;
@@ -31,7 +21,7 @@ unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 
 	i = 0;
 	j = 0;
-	while (dest[j] != '\0')
+	while (dest[j] != '\0' && j < size)
 	{
 		j++;
 	}
