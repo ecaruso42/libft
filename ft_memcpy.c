@@ -6,7 +6,7 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/19 16:03:55 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/01/24 16:38:30 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/01/24 16:40:39 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	*ft_memcpy(void *dst, const void *src, size_t len)
 	i = 0;
 	str = (unsigned char *)dst;
 	str1 = (unsigned char *)src;
-	if ((void *)dst == 0 &&(void *)src == 0)
+	if ((void *)dst == 0 && (void *)src == 0)
 	{
 		return (0);
 	}
