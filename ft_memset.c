@@ -6,7 +6,7 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 19:02:28 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/01/20 19:00:22 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/01/24 16:27:06 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,5 +23,5 @@ void	*ft_memset(void *p, int b, size_t len)
 		a++;
 		len--;
 	}
-	return (a);
+	return (p);
 }
