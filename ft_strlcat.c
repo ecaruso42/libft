@@ -6,7 +6,7 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/20 17:34:21 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/01/21 20:12:50 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/01/24 16:47:00 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,8 @@ size_t	ft_strlcat(char *dest, char *src, size_t size)
 
 	i = 0;
 	j = 0;
+	if (size == 0)
+		return (ft_strlen(src));
 	while (dest[j] != '\0' && j < size)
 	{
 		j++;
