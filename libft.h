@@ -6,7 +6,7 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 19:17:23 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/01/23 18:31:12 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/01/24 16:21:04 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,11 +17,11 @@
 # include <stddef.h>
 # include <stdlib.h>
 
-int				ft_isalpha(char b);
-int				ft_isdigit(char b);
+int				ft_isalpha(int c);
+int				ft_isdigit(int b);
 int				ft_isalnum(char b);
-int				ft_isascii(char b);
-int				ft_isprint(char b);
+int				ft_isascii(int b);
+int				ft_isprint(int b);
 size_t			ft_strlen(char *str);
 void			*ft_memset(void *p, int b, size_t len);
 void			ft_bzero(void *p, size_t len);

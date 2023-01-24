@@ -6,13 +6,13 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 17:17:51 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/01/19 16:05:30 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/01/24 16:20:28 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isdigit(char b)
+int	ft_isdigit(int b)
 {
 	if (b >= '0' && b <= '9')
 		return (1);

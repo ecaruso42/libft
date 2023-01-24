@@ -6,13 +6,13 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 18:18:10 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/01/21 18:32:49 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/01/24 16:20:35 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isprint(char b)
+int	ft_isprint(int b)
 {
 	if (b >= 32 && b <= 126)
 		return (1);
