@@ -6,7 +6,7 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 19:17:23 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/01/26 15:08:32 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/01/26 16:00:21 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,7 @@ int				ft_toupper(int c);
 int				ft_tolower(int c);
 char			*ft_strchr(const char *s, int c);
 char			*ft_strrchr(const char *s, int c);
-int	ft_strncmp(char *s1, char *s2, unsigned int n);
+int				ft_strncmp(char *s1, char *s2, unsigned int n);
+void			*ft_memchr(const void *s, int c, size_t n);
 
 #endif
