@@ -6,7 +6,7 @@
 #    By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/19 18:50:23 by ecaruso           #+#    #+#              #
-#    Updated: 2023/01/29 17:34:02 by ecaruso          ###   ########.fr        #
+#    Updated: 2023/01/29 17:47:33 by ecaruso          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -33,7 +33,8 @@ SRC = \
 	./ft_memcmp.c	\
 	./ft_strnstr.c	\
 	./ft_atoi.c		\
-	./ft_calloc.c
+	./ft_calloc.c	\
+	./ft_strdup.c
 
 OBJ = $(SRC:%.c=%.o)
 FLAGS = -Wall -Wextra -Werror
