@@ -6,7 +6,7 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 19:17:23 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/01/29 13:31:02 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/01/29 15:15:40 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,5 +36,6 @@ char			*ft_strrchr(const char *s, int c);
 int				ft_strncmp(char *s1, char *s2, unsigned int n);
 void			*ft_memchr(const void *s, int c, size_t n);
 int				ft_memcmp(const void *s1, const void *s2, size_t n);
+char			*ft_strnstr(const char *str, const char *to_find, size_t len);
 
 #endif
