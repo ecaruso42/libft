@@ -6,16 +6,21 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 19:17:23 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/01/29 17:47:17 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/01/30 16:02:27 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
-
 # include <unistd.h>
 # include <stddef.h>
 # include <stdlib.h>
+# include <stdbool.h>
+# undef INT_MIN
+# undef INT_MAX
+
+# define INT_MIN -2147483648
+# define INT_MAX 21474836487
 
 int				ft_isalpha(int c);
 int				ft_isdigit(int b);
