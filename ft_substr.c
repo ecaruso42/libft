@@ -6,7 +6,7 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/30 16:14:10 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/01/30 18:09:22 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/01/30 18:21:21 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	if (start >= ft_strlen(s))
 		start = ft_strlen(s);
 	if ((start + len) >= ft_strlen(s))
-		start = ft_strlen(s) - start;
+		len = ft_strlen(s) - start;
 	ptr = malloc(sizeof(char) * (len + 1));
 	if (!ptr)
 		return (ptr);
