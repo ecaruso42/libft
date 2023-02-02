@@ -6,7 +6,7 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/02 13:53:48 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/02/02 19:19:10 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/02/02 19:23:53 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,7 @@ char	**ft_split(char const *s, char c)
 		if (*s != c)
 		{
 			len = 0;
-			while (*s && *s != c && len++)
+			while (*s && *s != c && ++len)
 				s++;
 			number_of_words[i++] = ft_substr(s - len, 0, len);
 		}
