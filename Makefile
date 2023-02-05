@@ -6,7 +6,7 @@
 #    By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/19 18:50:23 by ecaruso           #+#    #+#              #
-#    Updated: 2023/02/02 19:14:43 by ecaruso          ###   ########.fr        #
+#    Updated: 2023/02/05 15:58:21 by ecaruso          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,7 +38,8 @@ SRC = \
 	./ft_substr.c	\
 	./ft_strjoin.c	\
 	./ft_strtrim.c	\
-	./ft_split.c
+	./ft_split.c	\
+	./ft_itoa.c
 
 OBJ = $(SRC:%.c=%.o)
 FLAGS = -Wall -Wextra -Werror
