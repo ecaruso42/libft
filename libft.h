@@ -6,16 +6,14 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 19:17:23 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/02/06 17:18:11 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/02/07 15:30:59 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 # include <unistd.h>
-# include <stddef.h>
 # include <stdlib.h>
-# include <stdbool.h>
 # undef INT_MIN
 # undef INT_MAX
 
@@ -56,5 +54,12 @@ void			ft_putchar_fd(char c, int fd);
 void			ft_putstr_fd(char *s, int fd);
 void			ft_putendl_fd(char *s, int fd);
 void			ft_putnbr_fd(int n, int fd);
+
+typedef struct s_list
+{
+	void			*content;
+	struct s_list	*next;
+}					t_list;
+t_list			*ft_lstnew(void *content);
 
 #endif
