@@ -6,7 +6,7 @@
 #    By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/19 18:50:23 by ecaruso           #+#    #+#              #
-#    Updated: 2023/02/07 15:32:55 by ecaruso          ###   ########.fr        #
+#    Updated: 2023/02/07 17:03:50 by ecaruso          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -47,7 +47,8 @@ SRC = \
 		./ft_putendl_fd.c	\
 		./ft_putnbr_fd.c
 SRCBONUS= \
-		./ft_lstnew.c
+		./ft_lstnew.c	\
+		./ft_lstadd_front.c
 
 
 OBJBONUS = $(SRCBONUS:%.c=%.o)
@@ -57,11 +58,11 @@ GCC = gcc -c
 all : $(NAME)
 
 $(NAME) :
-	$(GCC) $(FLAGS) -I ./ $(SRC)
+	$(GCC) $(FLAGS) $(SRC) -I.
 	ar rcs $(NAME) $(OBJ)
 
 bonus : $(NAME)
-		gcc -c $(FLAGS) $(SRCBONUS) -I.
+		$(GCC) $(FLAGS) $(SRCBONUS) -I.
 		ar rcs $(NAME) $(OBJBONUS)
 clean :
 	rm -f $(OBJ) $(OBJBONUS)
