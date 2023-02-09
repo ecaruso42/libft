@@ -6,7 +6,7 @@
 #    By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/19 18:50:23 by ecaruso           #+#    #+#              #
-#    Updated: 2023/02/07 17:33:54 by ecaruso          ###   ########.fr        #
+#    Updated: 2023/02/07 18:05:58 by ecaruso          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -50,7 +50,8 @@ SRCBONUS= \
 		./ft_lstnew.c	\
 		./ft_lstadd_front.c	\
 		./ft_lstsize.c	\
-		./ft_lstlast.c
+		./ft_lstlast.c	\
+		./ft_lstadd_back.c
 
 
 OBJBONUS = $(SRCBONUS:%.c=%.o)
