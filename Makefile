@@ -6,7 +6,7 @@
 #    By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/19 18:50:23 by ecaruso           #+#    #+#              #
-#    Updated: 2023/02/09 17:58:13 by ecaruso          ###   ########.fr        #
+#    Updated: 2023/02/09 18:35:28 by ecaruso          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -54,7 +54,8 @@ SRCBONUS= \
 		./ft_lstadd_back.c	\
 		./ft_lstdelone.c	\
 		./ft_lstclear.c	\
-		./ft_lstiter.c
+		./ft_lstiter.c	\
+		./ft_lstmap.c
 
 
 OBJBONUS = $(SRCBONUS:%.c=%.o)
