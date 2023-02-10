@@ -6,7 +6,7 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/21 16:16:48 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/01/21 19:01:26 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/02/10 17:21:27 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,16 +14,14 @@
 
 char	*ft_strchr(const char *s, int c)
 {
-	int	a;
+	size_t	a;
 
 	a = 0;
-	while (s[a] != '\0')
+	while (a < ft_strlen(s) + 1)
 	{
-		if (c == s[a])
+		if (*(s + a) == (char)c)
 			return ((char *)(s + a));
 		a++;
 	}
-	if (c == '\0')
-		return ((char *)(s + a));
 	return (NULL);
 }

@@ -6,13 +6,13 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/20 16:59:46 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/01/21 20:16:15 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/02/10 16:55:50 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
+size_t	ft_strlcpy(char *dest, char *src, unsigned int size)
 {
 	unsigned int	a;
 	unsigned int	b;
