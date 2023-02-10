@@ -6,7 +6,7 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 19:17:23 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/02/10 17:46:03 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/02/10 17:48:29 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ void		ft_bzero(void *p, size_t len);
 void		*ft_memcpy(void *dst, const void *src, size_t len);
 void		*ft_memmove(void *dst, const void *src, size_t len);
 size_t		ft_strlcpy(char *dest, const char *src, unsigned int size);
-size_t		ft_strlcat(char *dest,const char *src, size_t size);
+size_t		ft_strlcat(char *dest, const char *src, size_t size);
 int			ft_toupper(int c);
 int			ft_tolower(int c);
 char		*ft_strchr(const char *s, int c);

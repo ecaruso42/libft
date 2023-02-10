@@ -6,7 +6,7 @@
 /*   By: ecaruso <ecaruso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/26 15:03:38 by ecaruso           #+#    #+#             */
-/*   Updated: 2023/02/10 17:37:34 by ecaruso          ###   ########.fr       */
+/*   Updated: 2023/02/10 17:49:17 by ecaruso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
-	size_t	i;
+	size_t			i;
 	unsigned char	*ptr1;
 	unsigned char	*ptr2;
 
